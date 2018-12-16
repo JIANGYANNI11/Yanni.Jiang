@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>USER</title>
+		<style>
+			#container>header {
+				padding: 25px;
+				background: #007fff;
+				color: #fff;
+						}
+			
+			#logo {
+				display: inline-block;
+				position: absolute;
+				width: 205px;
+				height: 62px;
+				top: 12px;
+				left: 2px;
+				}
+			#container>footer {
+				display: block;
+				padding: 20px;
+				text-align: center;
+				background: #666;
+				color: #fff;
+				}
+			#function {
+				display: inline-block;
+				background: #34BAFF;
+				width:200px ;
+				height: 1196px;
+				float: left;
+				
+			}
+			#body{
+				background-color: #5F9EA0;
+				background-size: cover;
+				width:calc(100%-230px);
+				vertical-align: top;
+			}
+			#div{
+				width: 800px;
+				border:1px solid black;
+				margin-left: 350px;
+				margin-right: 50px;				
+				background-color: white;
+			}
+			#title{
+				align-content: center;
+				margin-left: 290px;
+			}
+			.input{
+				background-color: #FAEBD7;
+			}
+			.subtable{
+				width: 788px;
+				border: 1px solid black;
+			}
+			.subtit{
+				text-align: center;
+				background-color: dodgerblue;
+			}
+			.subtabled{
+				width: 800px;
+				border: 1px solid black;
+			}
+			.textarea{
+				width: 788px;
+				height: 30px;
+				background-color: lightblue;
+			}
+			.shorttext{
+				width: 298px;
+				background-color: lightblue;
+			}
+			.longtext{
+				width: 480px;
+				background-color: lightblue;
+			}
+			.fourtext{
+				width: 189px;				
+				background-color: lightblue;
+			}
+			.subtitdate{
+				width: 200px;
+				text-align: center;
+				background-color: dodgerblue;
+			}
+			.fourtextthree{
+				width: 600px;				
+				background-color: lightblue;
+			}
+		</style>
+		
+		
+	</head>
+	<body>
+		<div id="container">
+			<!--顶部-->
+			<header>
+				
+				<img id="logo" src="JIANLI/Capgemini.gif" /> 
+				<div>
+					<!-- <font style="color: white;padding-left: 800px;" size="4">欢迎你，管理员</font> -->
+				</div>
+				<div>
+				
+					<a href="login.html" style="color: white;padding-left: 1250px;" >Sign out</a>
+				</div>
+				
+			</header>
+			<div id="function" >
+				<button class="btn" style="width: 50%; margin: 30%;">EDIT</button>
+				<button class="btn " style="width: 50%; margin: 30%;">UPLOAD</button>
+				<button class="btn " style="width: 50%; margin: 30%;">DOWNLOAD</button>
+				
+			</div>
+			<tbody id="body">
+				<div id="div">
+					<h1 id="title"> Resume </h1>
+					<div>
+						<tr>
+							<td class="message">&nbspNAME</td>
+							<td class="input"><input type="text"></td>
+							<td class="message" >&nbspIMG</td>
+							<td >
+								<input type="file" value="上传文件" />
+							</td>
+							<br /> <br />
+						</tr>
+						<tr>
+							<td class="message">&nbspSEX &nbsp &nbsp</td>
+							<td class="input"><input type="text"></td>
+							<br /> <br />
+						</tr>
+						<tr>
+							<td class="message">&nbspHOME</td>
+							<td class="input"><input type="text"></td>
+							<br /> <br />
+						</tr>
+						
+					</div>
+
+					<div>
+						<table class="subtable">
+							<tr>
+								<td class="subtit">Profile</td>
+							</tr>
+							<tr>
+								<td><input type="text" class="textarea" /></td>
+							</tr>
+						</table>
+					</div>
+
+					<div>
+						<table class="subtable">
+							<tr>
+								<td class="subtit" colspan="2">Career</td>
+							</tr>
+							<tr>
+								<td><input type="text" class="shorttext" /></td>
+								<td><input type="text" class="longtext" /></td>
+							</tr>
+							<tr>
+								<td><input type="text" class="shorttext" /></td>
+								<td><input type="text" class="longtext" /></td>
+							</tr>
+						</table>
+					</div>
+
+					<div>
+						<table class="subtable">
+							<tr>
+								<td class="subtit" colspan="2">Industry Experience</td>
+							</tr>
+							<tr>
+								<td><input type="text" class="shorttext" /></td>
+								<td><input type="text" class="longtext" /></td>
+							</tr>
+							<tr>
+								<td><input type="text" class="shorttext" /></td>
+								<td><input type="text" class="longtext" /></td>
+							</tr>
+						</table>
+					</div>
+
+					<div>
+						<table class="subtable">
+							<tr>
+								<td class="subtit">Profile</td>
+							</tr>
+							<tr>
+								<td><input type="text" class="textarea" /></td>
+							</tr>
+							<tr>
+								<td><input type="text" class="textarea" /></td>
+							</tr>
+							<tr>
+								<td><input type="text" class="textarea" /></td>
+							</tr>
+						</table>
+					</div>
+
+					<div>
+						<table class="subtable">
+							<tr>
+								<td class="subtit" colspan="4">Languages<br />
+									The level in speaking, reading or writing is “Excellent”, “Good”, “Fair” or “Poor”</td>
+							</tr>
+							<tr>
+								<td class="subtit">Language</td>
+								<td class="subtit">Speak</td>
+								<td class="subtit">Read</td>
+								<td class="subtit">Write</td>
+							</tr>
+							<tr>
+								<td><input type="text" class="fourtext" /></td>
+								<td><input type="text" class="fourtext" /></td>
+								<td><input type="text" class="fourtext" /></td>
+								<td><input type="text" class="fourtext" /></td>
+							</tr>
+						</table>
+					</div>
+
+					<div>
+						<table class="subtabled">
+							<tr>
+								<td class="subtit" colspan="4">Project Experience</td>
+							</tr>
+							<tr>
+								<td class="subtitdate">Start Date</td>
+								<td><input type="text" class="fourtext" /></td>
+								<td class="subtitdate">End Date</td>
+								<td><input type="text" class="fourtext" /></td>
+							</tr>
+							<tr>
+								<td class="subtitdate">Client</td>
+								<td colspan="3"><input type="text" class="fourtextthree" /></td>
+							</tr>
+							<tr>
+								<td class="subtitdate">Project</td>
+								<td colspan="3"><input type="text" class="fourtextthree" /></td>
+							</tr>
+							<tr>
+								<td class="subtitdate">Role</td>
+								<td colspan="3"><input type="text" class="fourtextthree" /></td>
+							</tr>
+							<tr>
+								<td class="subtitdate">Responsibility</td>
+								<td colspan="3"><input type="text" class="fourtextthree" /></td>
+							</tr>
+						</table>
+
+						<div>
+							<table class="subtable">
+								<tr>
+									<td class="subtit">Training/Certification</td>
+								</tr>
+								<tr>
+									<td><input type="text" class="textarea" /></td>
+								</tr>
+								<tr>
+									<td><input type="text" class="textarea" /></td>
+								</tr>
+							</table>
+						</div>
+
+						<div>
+							<table class="subtable">
+								<tr>
+									<td class="subtit">Education</td>
+								</tr>
+								<tr>
+									<td><input type="text" class="textarea" /></td>
+								</tr>
+								<tr>
+									<td><input type="text" class="textarea" /></td>
+								</tr>
+							</table>
+						</div>
+
+						<div>
+							<table class="subtable">
+								<tr>
+									<td class="subtit">Others</td>
+								</tr>
+								<tr>
+									<td><input type="text" class="textarea" /></td>
+								</tr>
+								<tr>
+									<td><input type="text" class="textarea" /></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</tbody>
+			<div id="container">
+				<footer>@copyright 2018 </footer>
+			</div>
+		</div>
+	</body>
+</html>
